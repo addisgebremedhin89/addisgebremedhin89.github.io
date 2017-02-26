@@ -55,20 +55,79 @@ table {
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 body {
-  background-color: #a19b9b;
+  background-image: url("https://image-gr.s3.envato.com/files/132344746/01business_background_with_ofice_supplies_and_tablet_on_wooden_desk_t.jpg");
   background-size: cover;
-  border-image-repeat: stretch;
-  position: relative;
+  position: static;
   z-index: 1;
+  display: block;
 }
 
-.black-corner {
-  background-color: #000000;
+.resume-box {
+  background-color: #FFFFFF;
   position: absolute;
-  z-index: 3;
-	width: 23%;
-  width: 976px;
-	position: relative;
-	left: 45px;
+  top: 0%;
+  left: 15%;
+  right: 20%;
+  bottom: 20%;
+  width: 65%;
+  height: 60%;
+  margin: auto;
+  background-color: rgb(255,255,255);
+  z-index: 5;
+}
 
+.resume-header {
+  border: 1px solid #090404;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin: 5px auto;
+  font: 'Oswald', sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  width: 40%;
+}
+
+.resume-header2 {
+  text-decoration: underline;
+}
+
+/*.resume-image {
+  position: relative;
+  margin: auto;
+}*/
+
+
+.resume-content {
+  background-color: #FFFFFF;
+  position: absolute;
+  font: 300 16px/22px 'Oswald', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
+  top: 0%;
+  left: 15%;
+  right: 20%;
+  bottom: 20%;
+  width: 65%;
+  height: 60%;
+  margin: 70px;
+  background-color: rgb(255,255,255);
+  z-index: 5;
+  line-height: 10px;
+}
+
+.resume-content th {
+  /*text-indent: -100px;*/
+  text-align: center;
+}
+.experience {
+  /*text-indent: 10px;*/
+  text-align: center;
+}
+
+.education {
+  /*text-indent: 10px;*/
+  text-align: center;
 }
