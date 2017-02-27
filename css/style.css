@@ -19,7 +19,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -55,9 +54,9 @@ table {
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .container {
-  background-image: url("https://image-gr.s3.envato.com/files/132344746/01business_background_with_ofice_supplies_and_tablet_on_wooden_desk_t.jpg");
+  background-image: url("https://www.bkacontent.com/wp-content/uploads/2015/10/deskgreenplant.jpg");
   background-size: cover;
-  padding: 15px;
+  padding: 0px;
 }
 
 .left-box {
@@ -70,12 +69,13 @@ table {
 .resume-box {
   width: 60%;
   height: 400px;
+  margin: 10px;
   border: 1px solid #090404;
-  /*background-color: rgb(255,255,255);*/
+  background-color: rgb(255,255,255);
   display: inline-block;
 }
 
-.resume-header {
+/*.resume-header {
   border: 1px solid #090404;
   margin-left: 50%;
   margin-right: 50%;
