@@ -56,18 +56,21 @@ table {
   background-image: url("https://image.shutterstock.com/z/stock-photo-office-desk-table-with-computer-supplies-coffee-cup-and-flower-isolated-on-white-background-top-346099904.jpg");
   background-size: cover;
   padding-top: 55px;
-  padding-right: 33px;
+  padding-right: 75px;
 }
 
 .left-box {
-  width: 20%;
-  height: 400px;
-  background-color: transparent;
-  border: 1px solid #090404;
-  top: 100px;
-  position: relative;
+  width: 15%;
+  height: 70%;
+  background-color: rgb(255,255,255);
   display: inline-block;
+  position: relative;
+  bottom: 350px;
 }
+h4 {
+  text-indent: 40px;
+}
+
 .resume-box {
   width: 70%;
   height: 70%;
