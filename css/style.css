@@ -54,32 +54,30 @@ table {
                           BODY
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-body {
+.container {
   background-image: url("https://image-gr.s3.envato.com/files/132344746/01business_background_with_ofice_supplies_and_tablet_on_wooden_desk_t.jpg");
   background-size: cover;
-  position: static;
-  z-index: 1;
-  display: block;
+  padding: 15px;
 }
 
+.left-box {
+  width: 20%;
+  background-color: transparent;
+  border: 1px solid #090404;
+  height: 400px;
+}
 .resume-box {
-  background-color: #FFFFFF;
-  position: absolute;
-  top: 0%;
-  left: 15%;
-  right: 20%;
-  bottom: 20%;
-  width: 65%;
-  height: 60%;
-  margin: auto;
+  width: 60%;
+  height: 50px;
+  border: 1px solid #090404;
   background-color: rgb(255,255,255);
-  z-index: 5;
 }
 
 .resume-header {
   border: 1px solid #090404;
   margin-left: 50%;
   margin-right: 50%;
+  padding: 10px;
   margin: 5px auto;
   font: 'Oswald', sans-serif;
   font-size: 20px;
@@ -106,16 +104,15 @@ body {
   background-color: #FFFFFF;
   position: absolute;
   font: 300 16px/22px 'Oswald', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
-  top: 0%;
+  /*top: 0%;
   left: 15%;
   right: 20%;
   bottom: 20%;
   width: 65%;
-  height: 60%;
+  height: 60%;*/
   margin: 70px;
   background-color: rgb(255,255,255);
-  z-index: 5;
-  line-height: 10px;
+  /*line-height: 10px;*/
 }
 
 .resume-content th {
