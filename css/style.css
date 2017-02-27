@@ -65,12 +65,14 @@ table {
   background-color: transparent;
   border: 1px solid #090404;
   height: 400px;
+  display: inline-block;
 }
 .resume-box {
   width: 60%;
-  height: 50px;
+  height: 400px;
   border: 1px solid #090404;
-  background-color: rgb(255,255,255);
+  /*background-color: rgb(255,255,255);*/
+  display: inline-block;
 }
 
 .resume-header {
