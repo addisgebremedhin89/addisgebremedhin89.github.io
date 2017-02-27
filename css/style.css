@@ -55,7 +55,8 @@ table {
 .container {
   background-image: url("https://image.shutterstock.com/z/stock-photo-office-desk-table-with-computer-supplies-coffee-cup-and-flower-isolated-on-white-background-top-346099904.jpg");
   background-size: cover;
-  padding: 0px;
+  padding-top: 55px;
+  padding-right: 33px;
 }
 
 .left-box {
@@ -69,7 +70,8 @@ table {
 }
 .resume-box {
   width: 70%;
-  height: 400px;
+  height: 70%;
+  padding: 30px;
   background-color: rgb(255,255,255);
   /*border: 1px solid #090404;*/
   display: inline-block;
@@ -105,14 +107,25 @@ table {
   width: 40%;*/
 }
 
-ul li {
-  list-style-type: none;
+.blue-text {
+  text-align: center;
+  text-transform: uppercase;
+}
+.position-details {
+  list-style: disc;
 }
 
 .resume-header2 {
   text-decoration: underline;
 }
 
+.right {
+  float: right;
+}
+
+.sm-header {
+  text-align: center;
+}
 /*.resume-image {
   position: relative;
   margin: auto;
