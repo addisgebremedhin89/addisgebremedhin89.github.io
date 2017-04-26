@@ -165,3 +165,27 @@ h4 {
                         RESPONSIVE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
+@media only screen and (max-device-width: 375px) and (max-device-height: 667px) {
+
+  .container {
+    width:100%;
+  }
+  
+  #bg {
+    width:100%;
+  }
+
+}
+
+@media only screen and (max-device-width: 800px)  {
+
+  .container {
+    width:100%;
+  }
+  
+  #bg {
+    width:100%;
+  }
+
+}
+
