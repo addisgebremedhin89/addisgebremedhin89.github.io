@@ -93,7 +93,7 @@ h4 {
   margin: auto;
   display: block;
 }
-.orange-text {
+#my-name {
  text-align: center;
 }
 
@@ -156,3 +156,12 @@ h4 {
   /*text-align: center;*/
   font-size: 10px;
 }
+
+.nav-bar {
+ text-align: center;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                        RESPONSIVE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
