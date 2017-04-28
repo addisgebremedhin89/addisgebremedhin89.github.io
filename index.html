@@ -3,12 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="jquery-ui.css">
+        <!--<link type="text/javascript" src="script.js">-->
         <script src="jquery.js"></script>
         <script src="jquery-ui.js"></script>
         <script>
         $(document).ready(function(){
          $("#profile").draggable();
-        });
+         $(".left-align").selectable();
+         $("li").resizable();
+         
+         /*$(".container").fadeIn(1000);*/
+      });
         
         </script>
         <link rel="stylesheet" type="text/css" href="css/style.css">

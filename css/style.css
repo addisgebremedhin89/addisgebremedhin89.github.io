@@ -97,6 +97,9 @@ h4 {
  text-align: center;
 }
 
+.left-align .ui-selected {
+  color: orange;
+}
 .margins {
  text-align: center;
 }
